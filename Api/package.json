@@ -1,0 +1,30 @@
+{
+  "name": "ApiRest",
+  "version": "1.0.0",
+  "description": "Api destinada a estabeler a comunicação com o telegram, para o consumo dos dados. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiltonjunior/Api-Bot-Telegram.gitt"
+  },
+  "keywords": [
+    "API",
+    "Telegram",
+    "MongoDb"
+  ],
+  "author": "Wilton Júnior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiltonjunior/Api-Bot-Telegram.git/issues"
+  },
+  "homepage": "https://github.com/wiltonjunior/Api-Bot-Telegram.git#readme",
+  "dependencies": {
+    "dotenv": "7.0.0",
+    "express": "4.16.4",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.4.20"
+  }
+}

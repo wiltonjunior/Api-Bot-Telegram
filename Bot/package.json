@@ -1,0 +1,29 @@
+{
+  "name": "Bot Telegram",
+  "version": "1.0.0",
+  "description": "Bot para estabeler comunicação com API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiltonjunior/Api-Bot-Telegram.gitt"
+  },
+  "keywords": [
+    "API",
+    "Telegram",
+    "MongoDb"
+  ],
+  "author": "Wilton Júnior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiltonjunior/Api-Bot-Telegram.git/issues"
+  },
+  "homepage": "https://github.com/wiltonjunior/Api-Bot-Telegram.git#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
