@@ -1,10 +1,10 @@
 {
-  "name": "Bot Telegram",
+  "name": "ApiRest",
   "version": "1.0.0",
-  "description": "Bot para estabeler comunicação com API",
+  "description": "Api destinada a estabeler a comunicação com o telegram, para o consumo dos dados. ",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon src"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,9 @@
   "homepage": "https://github.com/wiltonjunior/Api-Bot-Telegram.git#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "dotenv": "^7.0.0",
-    "node-telegram-bot-api": "^0.30.0"
+    "dotenv": "7.0.0",
+    "express": "4.16.4",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.4.20"
   }
 }

@@ -8,7 +8,9 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${file}"
+            "program": "${workspaceFolder}/src/index.js",
+            "envFile": "${workspaceFolder}/.env",
+            "outputCapture": "std"
         }
     ]
 }

@@ -2,7 +2,6 @@
 
 const express = require("express");
 const mongoose = require("mongoose");
-const jwtMiddleware = require("./api/middlewares/jwt.middleware");
 
 const app = express();
 
